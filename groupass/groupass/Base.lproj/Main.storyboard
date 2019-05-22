@@ -23,9 +23,6 @@
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qnA-4E-dpY">
                                 <rect key="frame" x="82" y="60" width="212" height="28"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="qnA-4E-dpY" secondAttribute="height" multiplier="53:7" id="0bM-rh-0Lq"/>
-                                </constraints>
                                 <attributedString key="attributedText">
                                     <fragment content="Interactive Learning">
                                         <attributes>
@@ -37,7 +34,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I6n-v8-ibp">
-                                <rect key="frame" x="100" y="371" width="220" height="51"/>
+                                <rect key="frame" x="82" y="365" width="222" height="51"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="I6n-v8-ibp" secondAttribute="height" multiplier="87:20" id="3zo-9r-Nfi"/>
                                 </constraints>
@@ -53,28 +50,27 @@
                                 </state>
                                 <connections>
                                     <action selector="start:" destination="BV1-FR-VrT" eventType="touchUpInside" id="N4O-uC-7Y6"/>
-                                    <segue destination="HYn-bG-RWb" kind="show" identifier="hometostory" id="EYI-pB-8k1"/>
+                                    <segue destination="HYn-bG-RWb" kind="custom" identifier="hometostory" customClass="SegueFromRight" customModule="groupass" customModuleProvider="target" id="EYI-pB-8k1"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="I6n-v8-ibp" firstAttribute="leading" secondItem="4qk-I5-YsI" secondAttribute="leading" constant="55" id="23d-pp-k8k"/>
-                            <constraint firstItem="I6n-v8-ibp" firstAttribute="top" secondItem="qnA-4E-dpY" secondAttribute="bottom" constant="280" id="2rW-B5-ahW"/>
                             <constraint firstItem="yoT-Yl-eAx" firstAttribute="top" secondItem="3se-qz-xqx" secondAttribute="top" constant="1" id="2x5-g9-0Qb"/>
+                            <constraint firstItem="I6n-v8-ibp" firstAttribute="leading" secondItem="4qk-I5-YsI" secondAttribute="leading" constant="82" id="7qd-Rg-fhQ"/>
                             <constraint firstItem="yoT-Yl-eAx" firstAttribute="leading" secondItem="4qk-I5-YsI" secondAttribute="leading" constant="1" id="CUk-Mj-hW3"/>
                             <constraint firstItem="qnA-4E-dpY" firstAttribute="leading" secondItem="4qk-I5-YsI" secondAttribute="leading" constant="82" id="Cls-8z-DLR"/>
-                            <constraint firstItem="I6n-v8-ibp" firstAttribute="top" secondItem="qnA-4E-dpY" secondAttribute="bottom" constant="283" id="EQt-Dj-eZe"/>
+                            <constraint firstItem="I6n-v8-ibp" firstAttribute="top" secondItem="qnA-4E-dpY" secondAttribute="bottom" constant="277" id="EQt-Dj-eZe"/>
                             <constraint firstItem="qnA-4E-dpY" firstAttribute="top" secondItem="4qk-I5-YsI" secondAttribute="top" constant="40" id="FkK-QX-use"/>
-                            <constraint firstItem="4qk-I5-YsI" firstAttribute="trailing" secondItem="I6n-v8-ibp" secondAttribute="trailing" constant="10" id="JXx-tx-CYj"/>
-                            <constraint firstItem="4qk-I5-YsI" firstAttribute="trailing" secondItem="I6n-v8-ibp" secondAttribute="trailing" constant="55" id="MM1-i2-5wW"/>
-                            <constraint firstItem="4qk-I5-YsI" firstAttribute="bottom" secondItem="I6n-v8-ibp" secondAttribute="bottom" constant="242" id="WD5-Np-HNg"/>
+                            <constraint firstItem="4qk-I5-YsI" firstAttribute="bottom" secondItem="I6n-v8-ibp" secondAttribute="bottom" constant="251" id="Pjr-oO-VDC"/>
+                            <constraint firstItem="4qk-I5-YsI" firstAttribute="trailing" secondItem="I6n-v8-ibp" secondAttribute="trailing" constant="71" id="cpV-Rw-YWU"/>
+                            <constraint firstItem="I6n-v8-ibp" firstAttribute="leading" secondItem="4qk-I5-YsI" secondAttribute="leading" constant="82" id="fKK-CH-cKt"/>
+                            <constraint firstItem="I6n-v8-ibp" firstAttribute="top" secondItem="qnA-4E-dpY" secondAttribute="bottom" constant="277" id="nkC-u7-ecy"/>
                             <constraint firstItem="4qk-I5-YsI" firstAttribute="trailing" secondItem="qnA-4E-dpY" secondAttribute="trailing" constant="81" id="oNh-ym-lSK"/>
                             <constraint firstItem="yoT-Yl-eAx" firstAttribute="bottom" secondItem="4qk-I5-YsI" secondAttribute="bottom" constant="1" id="oeb-Fl-XgD"/>
-                            <constraint firstItem="I6n-v8-ibp" firstAttribute="leading" secondItem="4qk-I5-YsI" secondAttribute="leading" constant="100" id="vgg-3c-ICI"/>
+                            <constraint firstItem="4qk-I5-YsI" firstAttribute="bottom" secondItem="I6n-v8-ibp" secondAttribute="bottom" constant="251" id="scR-kN-1nn"/>
+                            <constraint firstItem="4qk-I5-YsI" firstAttribute="trailing" secondItem="I6n-v8-ibp" secondAttribute="trailing" constant="71" id="uum-B0-BdD"/>
                             <constraint firstItem="yoT-Yl-eAx" firstAttribute="trailing" secondItem="4qk-I5-YsI" secondAttribute="trailing" constant="1" id="wOO-wJ-Wk4"/>
-                            <constraint firstItem="I6n-v8-ibp" firstAttribute="top" secondItem="qnA-4E-dpY" secondAttribute="bottom" constant="283" id="wfG-Ue-TFV"/>
-                            <constraint firstItem="4qk-I5-YsI" firstAttribute="bottom" secondItem="I6n-v8-ibp" secondAttribute="bottom" constant="245" id="wsP-G0-jwe"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="4qk-I5-YsI"/>
                     </view>
@@ -133,8 +129,8 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="Time:" destination="HYn-bG-RWb" eventType="touchUpInside" id="ViC-um-pXn"/>
-                                    <segue destination="bLn-zc-czk" kind="show" identifier="storyto1" id="Otd-PA-zdr"/>
+                                    <action selector="time:" destination="HYn-bG-RWb" eventType="touchUpInside" id="FXE-iU-R29"/>
+                                    <segue destination="bLn-zc-czk" kind="custom" identifier="storytoone" customClass="SegueFromRight" customModule="groupass" customModuleProvider="target" id="uFF-qN-ZpO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TFK-Wm-fKa">
@@ -231,7 +227,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="QhJ-M1-Mqm" kind="show" identifier="studytofood" id="93i-ng-4M2"/>
+                                    <segue destination="QhJ-M1-Mqm" kind="custom" identifier="studytofood" customClass="SegueFromRight" customModule="groupass" customModuleProvider="target" id="93i-ng-4M2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vso-w3-wkn">
@@ -246,8 +242,8 @@
                                 <rect key="frame" x="16" y="521" width="142" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.37506152259999997" green="0.6927758168" blue="0.73949562820000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <state key="normal" title="Continue to Study">
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Start Studying">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
@@ -276,6 +272,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="btF-ku-xuc"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Qet-P5-Ey6"/>
                     <connections>
                         <outlet property="study" destination="ure-Ov-BrR" id="X8J-4r-IPC"/>
                     </connections>
@@ -322,7 +319,7 @@
                                 </state>
                                 <connections>
                                     <action selector="study:" destination="QhJ-M1-Mqm" eventType="touchUpInside" id="ZMr-F2-0CP"/>
-                                    <segue destination="iuk-DV-6FD" kind="show" identifier="twotothree" id="n37-Oa-XIW"/>
+                                    <segue destination="iuk-DV-6FD" kind="custom" identifier="twotothree" customClass="SegueFromRight" customModule="groupass" customModuleProvider="target" id="n37-Oa-XIW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="naP-XU-tdx">
@@ -337,8 +334,8 @@
                                 <rect key="frame" x="16" y="521" width="142" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.37506152259999997" green="0.6927758168" blue="0.73949562820000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <state key="normal" title="Go out with friends">
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Macca's Run">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
@@ -351,7 +348,7 @@
                                 </state>
                                 <connections>
                                     <action selector="giveup:" destination="QhJ-M1-Mqm" eventType="touchUpInside" id="GVC-nk-axn"/>
-                                    <segue destination="MSA-0l-WfM" kind="show" identifier="studytogiveup" id="O7B-Q8-eql"/>
+                                    <segue destination="MSA-0l-WfM" kind="custom" identifier="studytogiveup" customClass="SegueFromRight" customModule="groupass" customModuleProvider="target" id="O7B-Q8-eql"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -414,7 +411,7 @@
                                 </state>
                                 <connections>
                                     <action selector="home:" destination="3gO-fa-5IG" eventType="touchUpInside" id="Wnf-D1-sd9"/>
-                                    <segue destination="HYn-bG-RWb" kind="show" identifier="endtostory" id="cxL-bd-KDz"/>
+                                    <segue destination="HYn-bG-RWb" kind="custom" identifier="endtostory" customClass="SegueFromRight" customModule="groupass" customModuleProvider="target" id="cxL-bd-KDz"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -474,7 +471,7 @@
                                 </state>
                                 <connections>
                                     <action selector="procrastinate:" destination="MSA-0l-WfM" eventType="touchUpInside" id="D6W-Qh-VBr"/>
-                                    <segue destination="3gO-fa-5IG" kind="show" identifier="endtoover" id="ENN-8G-aOm"/>
+                                    <segue destination="3gO-fa-5IG" kind="custom" identifier="endtoover" customClass="SegueFromRight" customModule="groupass" customModuleProvider="target" id="ENN-8G-aOm"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -537,7 +534,7 @@
                                 </state>
                                 <connections>
                                     <action selector="study:" destination="iuk-DV-6FD" eventType="touchUpInside" id="mFm-Wr-mlF"/>
-                                    <segue destination="Lrs-WT-AMm" kind="show" identifier="threetopass" id="3IX-bB-jrj"/>
+                                    <segue destination="Lrs-WT-AMm" kind="custom" identifier="threetopass" customClass="SegueFromRight" customModule="groupass" customModuleProvider="target" id="3IX-bB-jrj"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -600,7 +597,7 @@
                                 </state>
                                 <connections>
                                     <action selector="passhome:" destination="Lrs-WT-AMm" eventType="touchUpInside" id="dBB-tY-OHe"/>
-                                    <segue destination="HYn-bG-RWb" kind="show" identifier="passtostory" id="1Yu-Og-VdE"/>
+                                    <segue destination="HYn-bG-RWb" kind="custom" identifier="passtostory" customClass="SegueFromRight" customModule="groupass" customModuleProvider="target" id="1Yu-Og-VdE"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -636,6 +633,6 @@
         <image name="study.jpg" width="1280" height="720"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="1Yu-Og-VdE"/>
+        <segue reference="EYI-pB-8k1"/>
     </inferredMetricsTieBreakers>
 </document>

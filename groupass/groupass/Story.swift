@@ -12,9 +12,10 @@ import GameplayKit
 
 class Story: UIViewController {
     
-    @IBAction func Time(_ sender: Any) {
-        performSegue(withIdentifier: "storyto1", sender: self)
+    @IBAction func time(_ sender: Any) {
+        performSegue(withIdentifier: "storytoone", sender: self )
     }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

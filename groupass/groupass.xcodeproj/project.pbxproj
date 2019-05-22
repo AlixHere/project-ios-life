@@ -37,6 +37,7 @@
 		C2CAB10E2294C135004B64D3 /* fail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2CAB10D2294C134004B64D3 /* fail.jpg */; };
 		C2CAB1102294C344004B64D3 /* pass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2CAB10F2294C343004B64D3 /* pass.jpg */; };
 		C2CAB1122294C39A004B64D3 /* pass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CAB1112294C39A004B64D3 /* pass.swift */; };
+		C2CAB1162294D761004B64D3 /* SegueToRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CAB1152294D760004B64D3 /* SegueToRight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		C2CAB10D2294C134004B64D3 /* fail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fail.jpg; sourceTree = "<group>"; };
 		C2CAB10F2294C343004B64D3 /* pass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pass.jpg; sourceTree = "<group>"; };
 		C2CAB1112294C39A004B64D3 /* pass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pass.swift; sourceTree = "<group>"; };
+		C2CAB1152294D760004B64D3 /* SegueToRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueToRight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				C2B6BB5C2294B316000118E3 /* GameScene.swift */,
 				C2B6BB5E2294B316000118E3 /* GameViewController.swift */,
 				C2B6BB602294B316000118E3 /* Main.storyboard */,
+				C2CAB1152294D760004B64D3 /* SegueToRight.swift */,
 				C2CAB1112294C39A004B64D3 /* pass.swift */,
 				C2CAB1012294B9F2004B64D3 /* playGif.swift */,
 				C2CAB0FD2294B847004B64D3 /* Story.swift */,
@@ -241,6 +244,7 @@
 				C2CAB1002294B8FB004B64D3 /* one.swift in Sources */,
 				C2B6BB5D2294B316000118E3 /* GameScene.swift in Sources */,
 				C2CAB1062294BCD4004B64D3 /* two.swift in Sources */,
+				C2CAB1162294D761004B64D3 /* SegueToRight.swift in Sources */,
 				C2CAB10C2294BCF6004B64D3 /* end.swift in Sources */,
 				C2CAB1022294B9F2004B64D3 /* playGif.swift in Sources */,
 				C2B6BB5F2294B316000118E3 /* GameViewController.swift in Sources */,
