@@ -117,7 +117,8 @@
                                 </state>
                                 <connections>
                                     <action selector="time:" destination="HYn-bG-RWb" eventType="touchUpInside" id="FXE-iU-R29"/>
-                                    <segue destination="bLn-zc-czk" kind="custom" identifier="storytoone" customClass="SegueFromRight" customModule="groupass" customModuleProvider="target" id="uFF-qN-ZpO"/>
+                                    <action selector="timeManagement:" destination="HYn-bG-RWb" eventType="touchUpInside" id="axi-JP-PAg"/>
+                                    <segue destination="bLn-zc-czk" kind="show" identifier="nextPage" id="KUG-E2-KmM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TFK-Wm-fKa">
@@ -606,6 +607,6 @@
         <image name="study.jpg" width="1280" height="720"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="EYI-pB-8k1"/>
+        <segue reference="1Yu-Og-VdE"/>
     </inferredMetricsTieBreakers>
 </document>
