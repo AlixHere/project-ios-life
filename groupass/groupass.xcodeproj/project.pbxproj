@@ -38,6 +38,8 @@
 		C2CAB1102294C344004B64D3 /* pass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2CAB10F2294C343004B64D3 /* pass.jpg */; };
 		C2CAB1122294C39A004B64D3 /* pass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CAB1112294C39A004B64D3 /* pass.swift */; };
 		C2CAB1162294D761004B64D3 /* SegueToRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CAB1152294D760004B64D3 /* SegueToRight.swift */; };
+		D63A44B52294DFBE00B93EE7 /* Pokemon Hollow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D63A44B32294DFBE00B93EE7 /* Pokemon Hollow.ttf */; };
+		D63A44B62294DFBE00B93EE7 /* Pokemon Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D63A44B42294DFBE00B93EE7 /* Pokemon Solid.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,8 +64,6 @@
 		C2B6BB772294B373000118E3 /* food.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = food.gif; sourceTree = "<group>"; };
 		C2B6BB782294B374000118E3 /* budget.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = budget.gif; sourceTree = "<group>"; };
 		C2B6BB792294B374000118E3 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
-		C2B6BB852294B3F2000118E3 /* Pokemon Hollow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Hollow.ttf"; sourceTree = "<group>"; };
-		C2B6BB862294B3F2000118E3 /* Pokemon Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Solid.ttf"; sourceTree = "<group>"; };
 		C2CAB0FD2294B847004B64D3 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		C2CAB0FF2294B8FB004B64D3 /* one.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = one.swift; sourceTree = "<group>"; };
 		C2CAB1012294B9F2004B64D3 /* playGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playGif.swift; sourceTree = "<group>"; };
@@ -76,6 +76,8 @@
 		C2CAB10F2294C343004B64D3 /* pass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pass.jpg; sourceTree = "<group>"; };
 		C2CAB1112294C39A004B64D3 /* pass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pass.swift; sourceTree = "<group>"; };
 		C2CAB1152294D760004B64D3 /* SegueToRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueToRight.swift; sourceTree = "<group>"; };
+		D63A44B32294DFBE00B93EE7 /* Pokemon Hollow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Hollow.ttf"; sourceTree = "<group>"; };
+		D63A44B42294DFBE00B93EE7 /* Pokemon Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Solid.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,8 @@
 		C2B6BB6E2294B32D000118E3 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
+				D63A44B32294DFBE00B93EE7 /* Pokemon Hollow.ttf */,
+				D63A44B42294DFBE00B93EE7 /* Pokemon Solid.ttf */,
 				C2B6BB792294B374000118E3 /* bg.jpg */,
 				C2B6BB782294B374000118E3 /* budget.gif */,
 				C2B6BB762294B373000118E3 /* bulyying.png */,
@@ -148,8 +152,6 @@
 				C2B6BB712294B372000118E3 /* sleep.gif */,
 				C2B6BB722294B372000118E3 /* spongebob eating.gif */,
 				C2B6BB732294B372000118E3 /* study.jpg */,
-				C2B6BB852294B3F2000118E3 /* Pokemon Hollow.ttf */,
-				C2B6BB862294B3F2000118E3 /* Pokemon Solid.ttf */,
 			);
 			path = "New Group";
 			sourceTree = "<group>";
@@ -218,12 +220,14 @@
 				C2B6BB812294B374000118E3 /* bulyying.png in Resources */,
 				C2B6BB802294B374000118E3 /* music.gif in Resources */,
 				C2B6BB622294B316000118E3 /* Main.storyboard in Resources */,
+				D63A44B62294DFBE00B93EE7 /* Pokemon Solid.ttf in Resources */,
 				C2B6BB592294B316000118E3 /* GameScene.sks in Resources */,
 				C2CAB1102294C344004B64D3 /* pass.jpg in Resources */,
 				C2B6BB642294B318000118E3 /* Assets.xcassets in Resources */,
 				C2B6BB7B2294B374000118E3 /* mental.png in Resources */,
 				C2B6BB672294B318000118E3 /* LaunchScreen.storyboard in Resources */,
 				C2B6BB7C2294B374000118E3 /* sleep.gif in Resources */,
+				D63A44B52294DFBE00B93EE7 /* Pokemon Hollow.ttf in Resources */,
 				C2CAB1042294BA3B004B64D3 /* 1study.gif in Resources */,
 				C2B6BB7E2294B374000118E3 /* study.jpg in Resources */,
 				C2CAB10E2294C135004B64D3 /* fail.jpg in Resources */,
